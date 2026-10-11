@@ -4,10 +4,25 @@
   "description": "Read-only Reppy API command-line client",
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=22" },
-  "bin": { "reppy": "src/cli.js" },
-  "exports": { "./client": "./src/client.js" },
-  "files": ["src", "README.rst", "LICENSE"],
-  "scripts": { "test": "node --test test/*.test.js" },
-  "repository": { "type": "git", "url": "https://github.com/kitsunies/reppy-cli.git" }
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "reppy": "src/cli.js"
+  },
+  "exports": {
+    "./client": "./src/client.js"
+  },
+  "files": [
+    "src",
+    "README.rst",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reppy-AI/reppy-cli.git"
+  }
 }

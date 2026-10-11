@@ -73,7 +73,7 @@ account disabling/deletion deny subsequent reads; there is no local cache.
 
 Training responses contain allowed structured fields and user-authored routine
 and exercise labels. Labels can contain personal information. Notes, Coach
-conversations, account profiles, bodyweight, goals, media, and credentials are
+conversations, account profiles, bodyweight history, goals, media, and credentials are
 outside this API's scope. If you give JSON to a third-party assistant, its
 provider can receive and retain the returned training data under its own
 policies. Only connect assistants you trust with this data.
@@ -97,5 +97,5 @@ OpenAPI schema: https://api.reppyai.com/openapi.json
 
 Public repository release targets:
 
-* https://github.com/kitsunies/reppy-cli
-* https://github.com/kitsunies/reppy-mcp
+* https://github.com/Reppy-AI/reppy-cli
+* https://github.com/Reppy-AI/reppy-mcp
