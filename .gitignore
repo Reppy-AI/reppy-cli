@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+*.key
+*.pem
+*api-key*
+*receipt*
+coverage/
+*.tgz
